@@ -5,42 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <style>
+        #square {
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            display: none;
+            position: absolute;
+        }
+        #green {
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            position: absolute;
 
-    <h1>Titulo H1</h1>
-    <h1 class="titulo">Outro H1</h1>
+        }
+    </style>
+</head>
+
+<body>
+    
+    <button id="button">Animate</button>
+    <button id="stop">Stop</button>
+    <div id="green"></div>
+    <div id="square"></div>
+    
     
 
     <script src="./JQuery uncompressed.js"></script>
     <script>
-        /* $(".titulo").hide();
+       // Fade in, Fade Out, Fade Toggle, Slide Down(Up, Toggle) 
+       
+       $("#button").click (() =>{
+           $("#green").animate({width: 500,height: 500}, 3000)
+       })
+       $("#stop").click(() => {
+        $("#green").stop()
+       })
 
-             setTimeout (() =>{
-                 $(".titulo").show();
-            }, 2000)
-        */
-        /*
-        document.querySelectorAll(".titulo")
-            .forEach(elemento =>{
-                elemento.style.display = none
-        })
-        */
-
-        /*
-        $(".titulo").click(() =>{
-            console.log("click")
-        })
-        $(".titulo").mouseenter(() =>{
-            console.log("mouse enter")
-        })
-        $(".titulo").mouseleave(() =>{
-            console.log("mouse leave")
-        })
-        $(".titulo").dblclick(() =>{
-            console.log("Double Click")
-        })
-        */
+       
 
     </script>
 </body>
