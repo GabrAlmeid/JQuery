@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #square {
+        #red {
             width: 500px;
             height: 500px;
             background-color: red;
@@ -25,15 +25,16 @@
 
 <body>
     
-    <button id="button">Animate</button>
-    <button id="stop">Stop</button>
+    <button id="button">Hide</button>
+    
     <div id="green"></div>
-    <div id="square"></div>
+    <div id="red"></div>
     
     
 
     <script src="./JQuery uncompressed.js"></script>
     <script>
+        /* 
        // Fade in, Fade Out, Fade Toggle, Slide Down(Up, Toggle) 
        
        $("#button").click (() =>{
@@ -42,6 +43,18 @@
        $("#stop").click(() => {
         $("#green").stop()
        })
+       */
+
+       
+       /*
+       $("#button").click(() => {
+           $("#green").hide(2000, function callBack(){
+               $("#red").show(2000)
+           })
+           
+       })
+       */
+
 
        
 
