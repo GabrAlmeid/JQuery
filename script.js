@@ -48,5 +48,17 @@ console.log($("#novo").attr("name", "Item de compra"))
 */
 
 
+/* Selecionando Elementos por atributos
 
 console.log($("[key = 2]").remove())
+*/
+
+
+/* Removendo elementos
+
+$("li").remove(".item2, .item4")
+$("#lista1").remove()
+$("#lista1").empty()
+*/
+
+
