@@ -46,3 +46,7 @@ console.log($("#lista1").html("<li> Novo item 1 </li> <li> Novo item 2 </li>"))
 console.log($("#novo").val("Arroz"))
 console.log($("#novo").attr("name", "Item de compra"))
 */
+
+
+
+console.log($("[key = 2]").remove())
