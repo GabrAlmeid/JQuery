@@ -74,3 +74,32 @@ let rect = $(".rect")
 rect.append("Novo teste")
 */
 
+
+/* Modificando o CSS
+
+setTimeout(() =>{
+    $("h1").addClass("bg-blue")
+},1000)
+
+setTimeout(() =>{
+    $("h1").removeClass("bg-blue")
+},4000)
+
+setTimeout(() =>{
+    $("h1").toggleClass("bg-blue")
+},1000)
+
+setTimeout(() =>{
+    $("h1").toggleClass("bg-blue")
+},4000)
+
+setInterval(() =>{
+    $("h1").toggleClass("bg-blue")
+},1000)
+
+$("h1").toggleClass("bg-blue")
+console.log($("h1").css({"font-size":"50px",
+                         "background-color":"red"}))
+*/
+
+
