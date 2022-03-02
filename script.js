@@ -61,4 +61,16 @@ $("#lista1").remove()
 $("#lista1").empty()
 */
 
+/* Inserindo elementos
+
+ let lista1 = $("#lista1")
+
+ lista1.append("<li>Novo teste</li>")
+ lista1.prepend("<li>Novo teste</li>")
+ lista1.after("<li>Novo teste</li>")
+ lista1.before("<li>Novo teste</li>")
+
+let rect = $(".rect")
+rect.append("Novo teste")
+*/
 
